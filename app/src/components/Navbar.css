@@ -8,6 +8,9 @@
   --muted: #ffffff;
 }
 
+/* smooth scrolling for in-page anchors */
+html { scroll-behavior: smooth; }
+
 /* NAVBAR: full width but inner content centered */
 .navbar{
   position: fixed;
@@ -48,17 +51,26 @@
   transform: translateY(-3px) scale(1.01);
   color: var(--accent);
 }
+
+@keyframes gentle-shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(3deg); }
+  75% { transform: rotate(-3deg); }
+  100% { transform: rotate(0deg); }
+}
+
 .logo-icon{
   width: 55px;  /* Ajusta este valor según el tamaño que necesites */
   height: 55px; /* Ajusta este valor según el tamaño que necesites */
   object-fit: contain;
-  transition: transform 600ms ease;
-  filter: brightness(1);
+  filter: drop-shadow(0 0 2px rgba(105, 246, 39, 0.2));
+  filter: hue-rotate(0deg);
+  transition: all 0.3s ease;
 }
 
 .brand:hover .logo-icon{
-  animation: logo-spin 800ms linear;
-  filter: brightness(1.2);
+  filter: drop-shadow(0 0 8px rgba(105, 246, 39, 0.6));
+  animation: gentle-shake 0.5s ease-in-out, pulse 1.5s infinite ease-in-out;
 }
 
 /* desktop links */

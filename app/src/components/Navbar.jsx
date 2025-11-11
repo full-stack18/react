@@ -13,9 +13,9 @@ export default function Navbar() {
         </a>
 
         <nav className="nav-links" role="navigation" aria-label="Main">
-          <a className="nav-link" href="#features">Sobre mi</a>
-          <a className="nav-link" href="#pricing">Proyectos</a>
-          <a className="nav-link" href="#about">Random</a>
+          <a className="nav-link" href="#sobre-mi">Sobre mí</a>
+          <a className="nav-link" href="#proyectos">Proyectos</a>
+          <a className="nav-link" href="#footer">Contacto</a>
           <a className="nav-cta" href="#get-started">Get Started</a>
         </nav>
 
@@ -33,9 +33,9 @@ export default function Navbar() {
 
       {/* Mobile slide panel */}
       <div className="mobile-panel" aria-hidden={!open}>
-        <a className="mobile-link" href="#features" onClick={() => setOpen(false)}>Features</a>
-        <a className="mobile-link" href="#pricing" onClick={() => setOpen(false)}>Pricing</a>
-        <a className="mobile-link" href="#about" onClick={() => setOpen(false)}>About</a>
+        <a className="mobile-link" href="#sobre-mi" onClick={() => setOpen(false)}>Sobre mí</a>
+        <a className="mobile-link" href="#proyectos" onClick={() => setOpen(false)}>Proyectos</a>
+        <a className="mobile-link" href="#footer" onClick={() => setOpen(false)}>Contacto</a>
         <a className="mobile-cta" href="#get-started" onClick={() => setOpen(false)}>Get Started</a>
       </div>
     </header>
