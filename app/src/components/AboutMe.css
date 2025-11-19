@@ -93,8 +93,8 @@
 
 .skill-icon {
   width: 30px;
-  height: 30px;
-  padding: 0.8rem;
+  height: 40px;
+  padding: 0;
   border-radius: 14px;
   background: transparent;
   transition: all 0.3s ease;
@@ -230,8 +230,8 @@
   }
 
   .skill-icon {
-    width: 28px;
-    height: 28px;
+    width: 45px;
+    height: 45px;
     padding: 0.7rem;
   }
 }
@@ -287,6 +287,12 @@
 
   .skill-item {
     gap: 0.4rem;
+  }
+
+  .skill-icon {
+    width: 34px;
+    height: 34px;
+    padding: 0.5rem;
   }
 
   .skill-name {
@@ -356,13 +362,15 @@
   }
 
   .skill-icon {
-    width: 26px;
-    height: 26px;
-    padding: 0.6rem;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin-left: 170px;
   }
 
   .skill-name {
     font-size: 0.75rem;
+    margin-left: 170px;
   }
 
   .image-wrapper {
@@ -437,18 +445,20 @@
   }
 
   .skills-grid {
-    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
     gap: 0.6rem;
   }
 
   .skill-icon {
-    width: 24px;
-    height: 24px;
-    padding: 0.5rem;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin-left: 120px;
   }
 
   .skill-name {
     font-size: 0.7rem;
+    margin-left: 120px;
   }
 
   .image-wrapper {
@@ -491,8 +501,13 @@
     font-size: 0.95rem;
   }
 
+  .skill-icon {
+    margin-left: 80px;
+  }
+
   .skill-name {
     font-size: 0.65rem;
+    margin-left: 80px;
   }
 
   .skills-grid {
