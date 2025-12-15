@@ -16,7 +16,7 @@ export default function Navbar() {
           <a className="nav-link" href="#sobre-mi">Sobre mí</a>
           <a className="nav-link" href="#proyectos">Proyectos</a>
           <a className="nav-link" href="#footer">Contacto</a>
-          <a className="nav-cta" href="#get-started">Get Started</a>
+          <a className="nav-cta" target="_blank" href="https://webventas-juandev-php.xo.je/registrar.php">Dashboard</a>
         </nav>
 
         <button
@@ -36,7 +36,7 @@ export default function Navbar() {
         <a className="mobile-link" href="#sobre-mi" onClick={() => setOpen(false)}>Sobre mí</a>
         <a className="mobile-link" href="#proyectos" onClick={() => setOpen(false)}>Proyectos</a>
         <a className="mobile-link" href="#footer" onClick={() => setOpen(false)}>Contacto</a>
-        <a className="mobile-cta" href="#get-started" onClick={() => setOpen(false)}>Get Started</a>
+        <a className="mobile-cta" href="#get-started" onClick={() => setOpen(false)}>Dashboard</a>
       </div>
     </header>
   );

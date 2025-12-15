@@ -14,11 +14,11 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Dashboard Analítico',
-      description: 'Panel de control en tiempo real con visualización de métricas, filtros personalizables y reportes exportables en múltiples formatos.',
-      tech: ['React', 'D3.js', 'Express', 'PostgreSQL'],
+      title: 'Dashboard con Login',
+      description: 'Dashboard completo con autenticación de usuarios, login con Google integrado, panel de control en tiempo real. Desarrollado con PHP, Tailwind CSS y Bootstrap para estilos responsivos, con conexión a base de datos SQL para gestión de usuarios y datos.',
+      tech: ['PHP', 'Tailwind CSS', 'Bootstrap', 'MySQL', 'Google OAuth'],
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop',
-      demo: '#',
+      demo: 'https://webventas-juandev-php.xo.je/registrar.php',
       github: '#'
     },
     {
