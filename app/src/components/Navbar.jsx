@@ -16,7 +16,7 @@ export default function Navbar() {
           <a className="nav-link" href="#sobre-mi">Sobre mí</a>
           <a className="nav-link" href="#proyectos">Proyectos</a>
           <a className="nav-link" href="#footer">Contacto</a>
-          <a className="nav-cta" target="_blank" href="https://webventas-juandev-php.xo.je/registrar.php">Dashboard</a>
+          <a className="nav-cta" target="_blank" href="https://webventas-juandev-php.xo.je/index.php">Dashboard</a>
         </nav>
 
         <button
