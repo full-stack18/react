@@ -11,7 +11,7 @@ const Projects = () => {
       tech: ['PHP', 'Tailwind CSS', 'Bootstrap', 'MySQL', 'Google OAuth'],
       image: dashboardImage,
       demo: 'https://webventas-juandev-php.xo.je/index.php',
-      github: '#'
+      github: 'https://github.com/full-stack18/web-ventas'
     },
     {
       id: 2,
