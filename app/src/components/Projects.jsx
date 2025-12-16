@@ -1,28 +1,20 @@
 import React from 'react';
 import './Projects.css';
+import dashboardImage from '../assets/dashboard.png';
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Tienda E-commerce',
-      description: 'Aplicación de comercio electrónico con carrito de compras, pasarela de pagos integrada y panel administrativo para gestión de productos.',
-      tech: ['React', 'Node.js', 'MySQL', 'Stripe'],
-      image: 'https://images.unsplash.com/photo-1460925895917-adf4e565b318?q=80&w=1200&auto=format&fit=crop',
-      demo: '#',
+      title: 'Dashboard con Login',
+      description: 'Dashboard completo con autenticación de usuarios, login con Google integrado, panel de control en tiempo real. Desarrollado con PHP, Tailwind CSS y Bootstrap para estilos responsivos, con conexión a base de datos SQL para gestión de usuarios y datos.',
+      tech: ['PHP', 'Tailwind CSS', 'Bootstrap', 'MySQL', 'Google OAuth'],
+      image: dashboardImage,
+      demo: 'https://webventas-juandev-php.xo.je/index.php',
       github: '#'
     },
     {
       id: 2,
-      title: 'Dashboard con Login',
-      description: 'Dashboard completo con autenticación de usuarios, login con Google integrado, panel de control en tiempo real. Desarrollado con PHP, Tailwind CSS y Bootstrap para estilos responsivos, con conexión a base de datos SQL para gestión de usuarios y datos.',
-      tech: ['PHP', 'Tailwind CSS', 'Bootstrap', 'MySQL', 'Google OAuth'],
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop',
-      demo: 'https://webventas-juandev-php.xo.je/registrar.php',
-      github: '#'
-    },
-    {
-      id: 3,
       title: 'Sistema de Reservas',
       description: 'Aplicación de reservas con calendario interactivo, gestión de disponibilidad, confirmación automática y notificaciones por email.',
       tech: ['React', 'Node.js', 'MongoDB', 'SendGrid'],
@@ -31,25 +23,16 @@ const Projects = () => {
       github: '#'
     },
     {
-      id: 4,
+      id: 3,
       title: 'Red Social',
       description: 'Plataforma social con feed en tiempo real, sistema de likes y comentarios, búsqueda de usuarios y perfiles personalizables.',
       tech: ['React', 'Node.js', 'Socket.io', 'Redis'],
-      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop',
       demo: '#',
       github: '#'
     },
     {
-      id: 5,
-      title: 'Blog con CMS',
-      description: 'Sistema de gestión de contenidos con editor enriquecido, categorías, tags, búsqueda avanzada y optimización SEO automática.',
-      tech: ['React', 'Next.js', 'Headless CMS', 'GraphQL'],
-      image: 'https://images.unsplash.com/photo-1460925895917-adf4e565b318?q=80&w=1200&auto=format&fit=crop',
-      demo: '#',
-      github: '#'
-    },
-    {
-      id: 6,
+      id: 4,
       title: 'App Clima',
       description: 'Aplicación de predicción del clima con geolocalización, búsqueda de ciudades, alertas de tiempo severo e historial de consultas.',
       tech: ['React', 'API Weather', 'Geolocation', 'Charts'],
